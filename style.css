@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-image: url("background.jpg");
+}
+
+h2 {
+    text-align: center;
+}
+
+#parallax {
+    background-image: url('corona.jpg');
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax .tagline {
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
